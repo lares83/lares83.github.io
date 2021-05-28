@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"style.scss",
+		"_sass/main.scss",
+		"_sass/_theme.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";",
+		"@import \"theme\";\n\nbody {\n  font-size: 20px;\n  margin: 0;\n  padding: 0;\n  font-family: 'Raleway', Arial;\n\n  display: grid;\n  grid-template-columns: 300px 1fr;\n  grid-gap: 4rem;\n  min-height: 100vh;\n}\n\naside {\n  background: $violet-1000;\n\n  .navigation {\n    position: sticky;\n    top: 0;\n    height: 100%;\n\n    nav {\n      position: absolute;\n      bottom: 0;\n    }\n  }\n}\n\n.content {\n  margin-right: 4rem;\n  max-width: 720px;\n}",
+		"$red-1200: #780000;\n$red-1100: #960000;\n$red-1000: #b21605;\n$red-900: #cf3322;\n$red-800: #eb4f3e;\n$red-700: #ff6352;\n$red-600: #ff8677;\n$red-500: #ffa99c;\n$red-400: #ffc0b6;\n$red-300: #ffd7cf;\n$red-200: #ffeae5;\n$red-100: #fff4f2;\n\n$orchid-1200: #550000;\n$orchid-1100: #730018;\n$orchid-1000: #8f0034;\n$orchid-900: #ac1c51;\n$orchid-800: #c8386d;\n$orchid-700: #dc4c81;\n$orchid-600: #f372a1;\n$orchid-500: #ff97bf;\n$orchid-400: #ffb2d2;\n$orchid-300: #ffcde5;\n$orchid-200: #ffe3f3;\n$orchid-100: #fff1f9;\n\n$purple-1200: #27003d;\n$purple-1100: #45005b;\n$purple-1000: #611477;\n$purple-900: #7e3194;\n$purple-800: #9a4db0;\n$purple-700: #ae61c4;\n$purple-600: #ca85de;\n$purple-500: #e1a7f1;\n$purple-400: #edbffa;\n$purple-300: #f9d6ff;\n$purple-200: #ffe9ff;\n$purple-100: #fff4ff;\n\n$violet-1200: #090050;\n$violet-1100: #270f6e;\n$violet-1000: #432b8a;\n$violet-900: #6048a7;\n$violet-800: #7c64c3;\n$violet-700: #9078d7;\n$violet-600: #ad97ed;\n$violet-500: #c5b3fb;\n$violet-400: #d6c8ff;\n$violet-300: #e6dcff;\n$violet-200: #f1eaff;\n$violet-100: #fbf7ff;\n\n$turquoise-1200: #00302d;\n$turquoise-1100: #004e4b;\n$turquoise-1000: #006a67;\n$turquoise-900: #008784;\n$turquoise-800: #00a3a0;\n$turquoise-700: #00b7b4;\n$turquoise-600: #29cdca;\n$turquoise-500: #57e0dd;\n$turquoise-400: #7deae9;\n$turquoise-300: #a3f5f4;\n$turquoise-200: #c7fdfc;\n$turquoise-100: #e6ffff;\n\n$plum-grey-1200: #241d36;\n$plum-grey-1100: #433c54;\n$plum-grey-1000: #605970;\n$plum-grey-900: #7d778c;\n$plum-grey-800: #9a93a8;\n$plum-grey-700: #aea8bb;\n$plum-grey-600: #c6c1d0;\n$plum-grey-500: #dad6e3;\n$plum-grey-400: #e6e3ec;\n$plum-grey-300: #f2f0f6;\n$plum-grey-200: #f7f6fa;\n$plum-grey-100: #fbfafc;\n"
+	],
+	"names": [],
+	"mappings": "ACEA,AAAA,IAAI,CAAC,EACH,SAAS,EAAE,IAAI,EACf,MAAM,EAAE,CAAC,EACT,OAAO,EAAE,CAAC,EACV,WAAW,EAAE,gBAAgB,EAE7B,OAAO,EAAE,IAAI,EACb,qBAAqB,EAAE,SAAS,EAChC,QAAQ,EAAE,IAAI,EACd,UAAU,EAAE,KAAK,GAClB;;AAED,AAAA,KAAK,CAAC,EACJ,UAAU,EC0BE,OAAO,GDdpB;;AAbD,AAGE,KAHG,CAGH,WAAW,CAAC,EACV,QAAQ,EAAE,MAAM,EAChB,GAAG,EAAE,CAAC,EACN,MAAM,EAAE,IAAI,GAMb;;AAZH,AAQI,KARC,CAGH,WAAW,CAKT,GAAG,CAAC,EACF,QAAQ,EAAE,QAAQ,EAClB,MAAM,EAAE,CAAC,GACV;;AAIL,AAAA,QAAQ,CAAC,EACP,YAAY,EAAE,IAAI,EAClB,SAAS,EAAE,KAAK,GACjB"
+}
